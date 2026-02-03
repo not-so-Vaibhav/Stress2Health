@@ -3,13 +3,11 @@ flask
 flask-cors
 gunicorn
 
-# Core ML (safe wheels)
+# Core numeric (safe)
 numpy>=1.23,<1.27
-pandas>=1.5,<2.1
-scikit-learn>=1.2,<1.4
 joblib
 
-# NLP (lightweight only)
+# NLP (lightweight)
 nltk>=3.8,<4.0
 
 # Utils
